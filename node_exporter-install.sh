@@ -25,6 +25,6 @@ systemctl daemon-reload
 systemctl enable node_exporter
 systemctl start node_exporter
 
+sudo rm -rf node_exporter-1.0.1.linux-amd64*
 sleep 1
-
 curl http://localhost:9100/metrics
