@@ -1,4 +1,6 @@
 #!/bin/bash
+# only allow for invesume system
+
 sudo apt install collectd -y
 sudo mv /etc/collectd/collectd.conf /etc/collectd/collectd.conf.ORIG
 
@@ -20,3 +22,4 @@ EOF
 sudo systemctl daemon-reload
 sudo systemctl enable collectd
 sudo systemctl start collectd
+
