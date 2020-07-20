@@ -1,5 +1,4 @@
 #!/bin/bash
-# only allow for invesume system
 
 sudo apt install collectd -y
 sudo mv /etc/collectd/collectd.conf /etc/collectd/collectd.conf.ORIG
